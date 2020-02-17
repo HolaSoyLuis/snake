@@ -1,0 +1,35 @@
+in additional pygame needs some system software installed
+
+this software additional can be installed using the next command
+
+apt install python-pygame
+
+or
+
+apt install python3-pygame
+
+in other system like arch, use:
+
+sudo pacman -S python-pygame
+
+if you want to get your global environment clean
+just install the system dependencies and install pygame in your
+virtual environment (like i did)
+
+dependencies list:
+- libmikmod
+- portmidi
+- sdl_image
+- sdl_mixer
+- sdl_ttf
+- smpeg
+
+next steps:
+virtualenv game
+source game/bin/activate
+pip install pygame
+
+and now it works
+
+Enjoy the incomplete game! :D
+if you complete the code be free to share it
